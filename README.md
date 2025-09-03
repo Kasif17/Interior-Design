@@ -1,5 +1,5 @@
 
-# Morph Design — React + Node.js + MongoDB (Full Stack)
+# Mohammad Interior Design — React + Node.js + MongoDB (Full Stack)
 
 This project replicates the UI from your screenshots ("Morph Design") using **React (Vite)** on the frontend and **Node.js/Express + MongoDB** on the backend. It includes:
 - Hero (Home), About, Portfolio grid, Clients, Contact/Newsletter
