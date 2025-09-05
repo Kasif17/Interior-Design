@@ -20,6 +20,20 @@ const localImages = [
   { url: "/assets/portfolio/13.jpg", title: "Hallway" },
   { url: "/assets/portfolio/14.jpg", title: "Hallway" },
   { url: "/assets/portfolio/15.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/16.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/17.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/18.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/19.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/20.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/21.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/22.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/23.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/24.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/26.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/27.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/28.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/29.jpg", title: "Hallway" },
+  { url: "/assets/portfolio/30.jpg", title: "Hallway" },
   
 ];
 
