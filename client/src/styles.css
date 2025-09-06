@@ -118,3 +118,140 @@ body {
 }
 /* Utility: set background image from data-bg */
 .section-bg{ background-image: var(--bg-url); }
+
+/* Information Card */
+/* .info-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.info-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.info-text {
+  flex: 1;
+}
+
+.info-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
+.info-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.info-bio {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.brand-text {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Responsive */
+/* @media (max-width: 700px) {
+  .info-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .info-img {
+    margin-bottom: 12px;
+  }
+}  */
+/* Owner Section in About */
+.owner-section {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 40px 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.owner-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.owner-text {
+  flex: 1;
+}
+
+.owner-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--accent);
+}
+
+.owner-role {
+  font-size: 15px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.owner-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .owner-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .owner-img {
+    margin-bottom: 12px;
+  }
+}
+
+.footer .icons a {
+  margin: 0 10px;
+  font-size: 22px;
+  color: var(--text);
+  transition: color 0.3s ease;
+}
+
+.footer .icons a:hover {
+  color: var(--accent);
+}
+.socials a {
+  color: var(--text);
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: var(--accent);
+}
+

@@ -8,6 +8,7 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ChatWidget from "./components/ChatWidget.jsx";
 
+
 export default function App() {
   return (
     <div className="app">
