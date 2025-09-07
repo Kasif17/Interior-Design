@@ -52,7 +52,13 @@ export default function Contact() {
           <a href="https://wa.me/9076225822" target="_blank" rel="noopener noreferrer">
              Chat with us on WhatsApp
           </a>
-          <p>Shop 8, Sonapur, Lal Bahadur Shastri Marg Bhandup Industrial Area Mumbai Maharashtra 400078</p>
+          <h2 className="text-bold text-green">Head Office</h2>
+          <p className="text-bold">Office No. 8, Sonapur, Lal Bahadur Shastri Marg Bhandup Industrial Area Mumbai Maharashtra 400078</p>
+
+          <h3>Jogeswari Branch Office Address:-</h3>
+          <p>
+            Office No. 5 First Floor Saurabh compound Jogeshwari West Oshiwara Gulshan Nagar Mumbai 400102
+          </p>
         </div>
       </div>
     </div>

@@ -1,20 +1,45 @@
-import React from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './styles.css'
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App.jsx";
+import "./styles.css";
 
-createRoot(document.getElementById('root')).render(<App />)
+createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
 
-// assign CSS variable for background images using data-bg attribute
+// Handle background images for sections
 function setSectionBackgrounds() {
   requestAnimationFrame(() => {
-    document.querySelectorAll('.section-bg').forEach(el => {
-      const url = el.getAttribute('data-bg');
-      if (url) el.style.setProperty('--bg-url', `url('${url}')`);
+    document.querySelectorAll(".section-bg").forEach((el) => {
+      const url = el.getAttribute("data-bg");
+      if (url) el.style.setProperty("--bg-url", `url('${url}')`);
     });
   });
 }
-
 setSectionBackgrounds();
-window.addEventListener('load', setSectionBackgrounds);
-window.addEventListener('resize', setSectionBackgrounds);
+window.addEventListener("load", setSectionBackgrounds);
+window.addEventListener("resize", setSectionBackgrounds);
+
+// import React from 'react'
+// import { createRoot } from 'react-dom/client'
+// import App from './App.jsx'
+// import './styles.css'
+
+// createRoot(document.getElementById('root')).render(<App />)
+
+// // assign CSS variable for background images using data-bg attribute
+// function setSectionBackgrounds() {
+//   requestAnimationFrame(() => {
+//     document.querySelectorAll('.section-bg').forEach(el => {
+//       const url = el.getAttribute('data-bg');
+//       if (url) el.style.setProperty('--bg-url', `url('${url}')`);
+//     });
+//   });
+// }
+
+// setSectionBackgrounds();
+// window.addEventListener('load', setSectionBackgrounds);
+// window.addEventListener('resize', setSectionBackgrounds);

@@ -48,7 +48,7 @@ export default function ChatWidget() {
     <div className="chat">
       {!open && (
         <button className="chat-button" onClick={() => setOpen(true)}>
-          💬 Let's Chat!
+          💬 Talk to Zyra!
         </button>
       )}
       {open && (
