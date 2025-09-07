@@ -47,8 +47,8 @@ export default function Contact() {
         </div>
 
         <div className="contact-details">
-          <p><a href="info.mohdinteriordesign@gmail.com">info.mohdinteriordesign@gmail.com</a></p>
-          <p>Mobile: 9076225822 </p>
+          <p><a href="mailto:info.mohdinteriordesign@gmail.com">info.mohdinteriordesign@gmail.com</a></p>
+          <p>Phone: 9076225822 </p>
           <a href="https://wa.me/9076225822" target="_blank" rel="noopener noreferrer">
              Chat with us on WhatsApp
           </a>

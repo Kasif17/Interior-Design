@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram ,FaYoutube} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -29,6 +29,14 @@ export default function Footer() {
         >
           <FaInstagram />
         </a>
+        <a
+                    href="https://www.youtube.com/@MohdInteriorDesign"
+                    aria-label="YouTube"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaYoutube />
+                  </a>
       </div>
       <div className="copyright">
         <p>Founded in 2020 by <span>Mohammad Design</span>.</p>

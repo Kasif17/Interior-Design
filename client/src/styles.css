@@ -272,10 +272,11 @@ body {
   margin-bottom: 50px;
 }
 .owner-photo {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 280px;             /* Bigger than team pics */
+  height: 280px;
+  border-radius: 20%;       /* Rounded square */
+  object-fit: cover;        /* Keeps proportions */
+  object-position: center;  /* Face in center */
   border: 5px solid #4caf50;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
@@ -326,18 +327,20 @@ body {
 
 /* Image inside Card */
 .team-img {
-  width: 120px;
-  height: 120px;
+  width: 200px;          /* Bigger image */
+  height: 200px;
   margin: 0 auto 15px auto;
-  border-radius: 50%;
+  border-radius: 20%;    /* Rounded square (15–20%) */
   overflow: hidden;
   border: 4px solid #4caf50;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
+
 .team-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;     /* Keeps aspect ratio, face fits nicely */
+  object-position: center; /* Ensures face is centered */
 }
 
 /* Text Styling */
@@ -382,4 +385,87 @@ body {
 .info-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(34,197,94,0.4);
+}
+
+
+
+/* Bot logo in header */
+.bot-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Chat message rows */
+.msg-row {
+  display: flex;
+  align-items: flex-start;
+  margin: 8px 0;
+}
+
+.msg-row.bot {
+  justify-content: flex-start;
+}
+
+.msg-row.user {
+  justify-content: flex-end;
+}
+
+/* Avatar inside chat */
+.msg-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+/* Message bubbles */
+.bot-msg {
+  background: #e1f5fe;
+  color: #222;
+  padding: 10px 14px;
+  border-radius: 15px;
+  max-width: 70%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.user-msg {
+  background: #4caf50;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 15px;
+  max-width: 70%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.chat-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #4a90e2; /* blue button */
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: background 0.3s ease;
+}
+
+.chat-button:hover {
+  background: #357ab8;
+}
+
+.chat-button-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-button-text {
+  font-size: 15px;
 }

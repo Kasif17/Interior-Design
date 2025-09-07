@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram,FaYoutube } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -35,6 +35,14 @@ export default function Hero() {
             rel="noopener noreferrer"
           >
             <FaInstagram />
+          </a>
+          <a
+            href="https://www.youtube.com/@MohdInteriorDesign"
+            aria-label="YouTube"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube />
           </a>
         </div>
 

@@ -60,7 +60,7 @@ export default function Information() {
           <div className="team-img">
             <img src={mini1} alt="Mini Supervisor 1" />
           </div>
-          <h3>Mohd Adil</h3>
+          <h3>Mohd Imtiyaz Khan</h3>
           <p>Senior Architecture & Designer</p>
           <span>5+ Years Experience</span>
         </div>
@@ -78,7 +78,7 @@ export default function Information() {
           <div className="team-img">
             <img src={mini3} alt="Mini Supervisor 3" />
           </div>
-          <h3>Mohd Tabish Khan</h3>
+          <h3>Shadab Khan</h3>
           <p>Assistant Supervisor</p>
           <span>4+ Years Experience</span>
         </div>
