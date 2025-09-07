@@ -47,12 +47,11 @@ export default function Contact() {
         </div>
 
         <div className="contact-details">
-          <p><a href="mailto:info@morphluxury.com">info.mohdinteriordesign@gmail.com</a></p>
+          <p><a href="info.mohdinteriordesign@gmail.com">info.mohdinteriordesign@gmail.com</a></p>
           <p>Mobile: 9076225822 </p>
           <a href="https://wa.me/9076225822" target="_blank" rel="noopener noreferrer">
              Chat with us on WhatsApp
           </a>
-          <p>The Summit Business Bay (Omkar)</p>
           <p>Shop 8, Sonapur, Lal Bahadur Shastri Marg Bhandup Industrial Area Mumbai Maharashtra 400078</p>
         </div>
       </div>
